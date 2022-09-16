@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.parent{
+    background-color:blanchedalmond;
+    width: 500px;
+ height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end; 
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    gap: 5px;
+    /* flex-wrap: wrap;  */
+    /* it will always retain its width and go the next line */ 
+ 
+    /* align-items: center; */
+    /* justify-content: space-around; */
+
+    align-content:stretch;
+
+
+
+}
+
+.child{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    /* margin: 5px; */
+
+}
+
+/* to do chages of any one child we cAN use justify-self , align-self properties by definig different class of that child */

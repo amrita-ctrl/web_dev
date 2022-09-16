@@ -1,0 +1,13 @@
+/* in this we will be learning about position */
+
+.relative{
+    position: relative;
+    top: 100px;
+    border: 2px solid black;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 100px; 
+    border: 2px solid aqua;
+} 

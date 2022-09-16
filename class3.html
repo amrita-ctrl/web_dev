@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- validation works only when you put all that inside form tag -->
+      <!-- it is a collection of elements -->
+      <!-- to add default value we can use value attribute -->
+      <!-- placeholder is for guidance purpose for the user -->
+      <!-- if we want to compulsory writting all the fiels in form using html we can do that using REQUIRED attribute -->
+      <!-- this for attribute is very useful if wwe click on label it will take us to the corresponding id which we write -->
+      <label for="name"> Enter your name</label>
+      <input value="amrita" minlength="6" id="name" type="text" required />
+      <br />
+      <label for="email"> Enter your email id</label>
+      <input placeholder="email" id="email" type="email" required />
+      <br />
+      <label for="pass">Enter your password</label>
+      <input id="pass" type="password" />
+      <br />
+      <label for="date"> Enter the date</label>
+      <input id="date" type="date" />
+      <br />
+      <label for="btn"> button</label>
+      <input id="btn" type="button" />
+      <br />
+      <label for="sub"> sub</label>
+      <input id="sub" type="submit" />
+      <br />
+      <label for="file">file</label>
+      <input id="file" type="file" />
+      <br />
+
+      <!-- in radio buttons if we gave same name to all the buttons then it will select only one -->
+      <label for="rdio">enter multi opt</label>
+      <input name="single" id="rdio" type="radio" />
+      <input name="single" id="rdio" type="radio" />
+      <input name="single" id="rdio" type="radio" />
+      <input name="single" id="rdio" type="radio" />
+      <input name="single" id="rdio" type="radio" />
+      <br />
+
+      <label for="cb">enter single opt</label>
+      <input id="cb" type="checkbox" />
+      <input id="cb" type="checkbox" />
+      <input id="cb" type="checkbox" />
+      <input id="cb" type="checkbox" />
+      <input id="cb" type="checkbox" />
+      <br />
+      <label for="srch">search</label>
+      <input id="srch" type="search" />
+      <br />
+      <label for="num">number</label>
+      <input id="num" type="number" />
+
+      <label for="choice"></label>
+      <!-- SELECT TAG -->
+      <select id="choice">
+        <option>choice 1</option>
+        <option>choice 2</option>
+        <option>choice 3</option>
+        <option>choice 4</option>
+        <option>choice 5</option>
+      </select>
+    </form>
+  </body>
+</html>

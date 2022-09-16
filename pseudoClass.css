@@ -1,0 +1,42 @@
+.btn{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background-color: bisque;
+    color: blue;
+}
+
+.btn:active{
+    background-color: black;
+    color: rebeccapurple;
+}
+
+.btn:focus{
+    background-color: azure;
+    color: brown;
+}
+
+
+/* we specify pseudoclass by : 
+and pseudoElement by :: */
+
+
+.para::before
+{
+    content: "My name is";
+    color: blue;
+}
+
+.para::after
+{
+    content: " Kataria";
+    color: blue; 
+}
+
+
+.para::selection
+{
+    background-color: plum;
+}

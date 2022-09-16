@@ -1,0 +1,48 @@
+.btn{
+    width: 50px;
+    height: 50px;
+   
+    background-color: grey;
+    color: antiquewhite;
+
+   
+}
+
+.btn:focus{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 50, 50);
+    color: rgb(128, 81, 20);
+
+    /* after 2 sec it start */
+    transition-delay: 1s;
+    /*  it takes 5 sec to convert*/
+    transition-duration: 5s;
+    /* transition-property: height; */
+}
+
+
+.di1{
+    width: 600px;
+    height: 600px;
+    border: 1px solid red ;
+    padding: 10px;
+    margin: 50px;
+
+}
+
+.di2{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.di2:hover{
+    background-color: greenyellow;
+    border-radius: 50%;
+    /* transform: translateY(100%); */
+    transform: translateY(200%);
+    /* transform: translate3d(1000px); */
+    transition: 2s ease-in-out;
+}
